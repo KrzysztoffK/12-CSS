@@ -1,0 +1,212 @@
+/*przyklad 4*/
+div#przyklad4{
+    border-image: url("wzor.jpg") 27 / 50px / 10px round;
+    margin: 0 auto;
+    border-width: 60px;
+    border-style: solid;
+    margin-top: 20px;
+    height: 30%;
+    width: 50%;
+}
+
+/*zadanie 1*/
+div#zadanie1{
+    border-style: dotted;
+    border-color: red;
+    border-radius: medium;
+}
+
+/*zadanie 2*/
+table#zadanie2, td.zadanie2{
+    cursor: crosshair;
+    border: 1px solid black;
+}
+
+/*przycisk 1- zadanie 3*/
+a#przycisk1:link{
+    color:black;
+	background-color: gray;
+	border: solid;
+}
+
+a#przycisk1:visited{
+    color: black;
+    background-color: gray;
+    border: solid;
+}
+
+/*przycisk 2- zadanie 4*/
+a#przycisk2:active{
+    color: silver;
+    background-color: black;
+    border: dashed;
+}
+
+a#przycisk2:hover{
+    color: silver;
+    background-color: black;
+    border: dashed;
+}
+
+/*zadanie 5*/
+div#zadanie5{
+    margin-left: 25px;
+}
+
+ol#zadanie5{
+    list-style-image: url("gwiazdka.jpg");
+}
+
+/*zadanie6*/
+div#zadanie6{
+    margin: 20px 10px 5px 10px;
+    background-color: green;
+    /*nie zadziala tak jak to bylo zamierzone w zadaniu, ze wzgledu na inny uklad*/
+}
+
+/*zadanie7*/
+div#zadanie7{
+    background-image: url("kwiat.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 682px;
+    width: 1000px;
+}
+
+/*zadanie 8*/
+p#zadanie8{
+    font-family: Tahoma;
+	font-style: italic;
+	width: 500px;
+	size: 20px;
+}
+
+/*zadanie 9*/
+h1#zadanie9{
+    text-decoration: overline;
+	word-spacing: 10px;
+	text-align: right;
+	color: green;
+}
+
+/*zadanie 10*/
+div#zadanie10out{
+    background-color: #57f77f;
+	margin: 10px;
+    padding: 50px;
+}
+
+div#zadanie10in{
+    background-color: gray; 
+	border: black double;
+	border-radius: 35px 0 35px 0;
+	letter-spacing: 20px;
+	cursor: wait;
+	padding: 3cm;
+
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+}
+
+/*zadanie 11*/
+div#zadanie11{
+    background-color: pink;
+    background-image: url("auto.jpg");
+    background-repeat: repeat-x;
+    height: 1000px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /*aby uzyskac to co w zadaniu trzeba uzyc paddingu zamiast marginesow korzystajac z diva*/
+}
+ol#zadanie11, li.zadanie11{
+    list-style-type: lower-roman;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/*zadanie 12*/
+div#zadanie12{
+    background-color: lightblue;
+    padding: 15px;
+    
+}
+
+h3#zadanie12{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    line-height: 3;
+    text-align: center;
+    padding: 5px;
+
+    border-style: outset;
+    border-width: 8px;
+    border-color: red;
+
+}
+
+/*zadanie 13*/
+div#zadanie13{
+    background-color: yellow;
+
+}
+
+table#zadanie13{
+    border-style: dashed;
+    border-color: red;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    width: 450px;
+    height: 300px;
+    background-color: orange;
+}
+
+td.zadanie13{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-family: Calibri;
+    font-size: 20pt;
+    border-color: black;
+
+    
+}
+
+a.zadanie13{
+    text-decoration: none;
+}
+
+a.zadanie13:hover{
+    font-weight: bold;
+    color: green;
+}
+
+/*zadanie 14*/
+div#zadanie14{
+    background-color: lightblue;
+    padding: 25px;
+    /*uzycie diva wymaga zmiany marginow na paddingi, zeby dzialaly jak w zamierzeniu*/
+    background-image: url("mis.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0%;
+
+
+}
+
+div#zadanie14in{
+    color: yellow;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: x-small;
+    text-indent: 28px;
+    word-spacing: 10px;
+    text-align: justify;
+    border: 8px outset green;
+    padding: 5px;
+    background-color: blue;
+    opacity: 50%;
+    word-break: break-all;
+   
+}
