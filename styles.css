@@ -120,7 +120,7 @@ div#zadanie11{
     padding-top: 20px;
     /*aby uzyskac to co w zadaniu trzeba uzyc paddingu zamiast marginesow korzystajac z diva*/
 }
-ol#zadanie11, li.zadanie11{
+ul#zadanie11, li.zadanie11{
     list-style-type: lower-roman;
     text-transform: uppercase;
     font-weight: bold;
@@ -131,6 +131,7 @@ ol#zadanie11, li.zadanie11{
 div#zadanie12{
     background-color: lightblue;
     padding: 15px;
+    cursor: ne-resize;
     
 }
 
